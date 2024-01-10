@@ -1,4 +1,5 @@
 import './App.css';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
+      <Footer />
     </>
   );
 }
